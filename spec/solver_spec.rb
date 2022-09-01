@@ -17,7 +17,7 @@ describe Solver do
       expect(@solver.factorial(5)).to eq 120
     end
   end
-  
+
   describe '#reverse' do
     it 'it reverses the string' do
       expect(@solver.reverse('hello')).to eq 'olleh'
@@ -26,8 +26,6 @@ describe Solver do
     end
   end
 
-
-  
   describe '#fizzbuzz' do
     it 'it reuturns fizz when N is divisible by 3' do
       expect(@solver.fizzbuzz(21)).to eq 'fizz'
